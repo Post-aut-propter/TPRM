@@ -88,8 +88,3 @@ Actions à faire	=NB.SI(Actions!I:I;"À faire")
 Actions en cours	=NB.SI(Actions!I:I;"En cours")
 Éléments d’évaluation inconnus	=NB.SI(Évaluations!D:D;"Inconnu")
 Actions en retard	=NB.SI.ENS(Actions!H:H;"<"&AUJOURDHUI();Actions!I:I;"<>Clôturée")
-```
-
-Selon votre version d’Excel, les noms de fonctions ou séparateurs peuvent varier. Ajoutez une mise en forme conditionnelle pour signaler les échéances dépassées et les fournisseurs importants.
-
-La transcription met particulièrement l’accent sur cinq angles à garder visibles dans le suivi : **accès fournisseur**, **continuité**, **concentration**, **sous-traitance en cascade** et **réversibilité**. Elle rappelle également qu’un fournisseur peut présenter un risque élevé par ce qu’il peut atteindre, et pas seulement par les données qu’il traite.
